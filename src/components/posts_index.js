@@ -6,7 +6,7 @@ class PostIndex extends Component {
     componentWillMount() {
         this.props.fetchPosts();
     }
-    renter() {
+    render() {
         return (
             <div>List of blog posts</div>
         );
